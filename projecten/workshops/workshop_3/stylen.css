@@ -1,0 +1,39 @@
+@charset "uft-8";
+
+#header {
+    background-image: url("http://jos.gluweb.nl/lessen/web/blue.png");
+    height: 150px;
+    width: 960px;/*breedte van header*/
+    background-repeat:no-repeat;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: Arial;
+    
+}
+
+#content{
+    height: 150px;
+    width: 960px;/*breedte van header*/
+    background-repeat:no-repeat;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 20px;
+    color: #000000;
+    font-size: 25px;
+    font-family: Arial;
+}
+
+#footer{ 
+    background-image: url(https://wallpapertag.com/wallpaper/full/4/1/b/478992-midnight-blue-background-1920x1200-for-lockscreen.jpg);
+    height: 150px;
+    width: 960px;/*breedte van header*/
+    background-repeat:no-repeat;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 20px; 
+    color: #ffffff;
+    font-size: 25px;
+    font-family: Arial;}
