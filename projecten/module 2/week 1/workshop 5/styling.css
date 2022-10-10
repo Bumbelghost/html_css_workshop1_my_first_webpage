@@ -4,7 +4,7 @@ form {
 label {
     float:left;
     width: 100px;
-    text-align: right;
+    text-align: center;
     margin-right: 15px;
 }
 *{
@@ -31,29 +31,31 @@ label {
     box-sizing: border-box;
     padding: 20px 30px;
     margin-left: 30px;
+    margin-right: 800px;
+    margin-bottom: 30px;
 }
 
 #emailadresbericht {
+    float: left;
     clear: both;
     display: block;
     position: relative;
-    box-sizing: border-box;
+    box-sizing: border-box; 
     padding: 20px 30px;
     margin-right: 30px;
 }
 
 #websitebericht {
     clear: both;
-    display: block;
-    position: relative;
-    box-sizing: border-box;
     padding: 20px 30px;
+    margin-right: 300px;
+    position: relative;
 }
 #bericht {
     clear: both;
     display: block;
     position: relative;
     box-sizing: border-box;
-    padding: 20px 30px;
+    padding: 50px 170px;
     margin-right: 30px;
 }
