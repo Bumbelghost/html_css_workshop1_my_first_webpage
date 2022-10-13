@@ -1,11 +1,17 @@
 * {
     text-align: left;
+    font-family: Monospace, "Monaco";
 
 }
 #titel {
-    text-align: left;
     position: relative;
 }
+body{
+    background-size: cover;
+background-image: url(https://assets.codepen.io/652/shania-pinnata-7E-vKgzahd8-unsplash.jpg);
+background-color: rgba(0,0,0,0.5);
+}
+
 
 #pasta {
  z-index: -1;
@@ -15,4 +21,8 @@
 }
 #tomaten {
     float:right;
+}
+
+#image2 {
+    
 }
