@@ -1,0 +1,36 @@
+* {
+
+}
+
+#logotext {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 75px;
+}
+#logo {
+    background-color: #f77d2c;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border: #f77d2c solid ;
+    border-radius: 50%;
+    z-index: 1;
+    margin-left: 70px;
+
+}
+#balkblue {
+    margin-left: -8px;
+    margin-top: -10px;
+    height: 50px;
+    width: 1920px;
+    background-color: #3d89db;
+}
+#tekst {
+ color: #2ca9f7;
+ font-size: ;
+}
+h1 {
+    color: rgb(30, 71, 204);
+}
