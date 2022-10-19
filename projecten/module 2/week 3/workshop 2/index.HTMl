@@ -17,10 +17,53 @@
     </div>
     <div id="logo"></div>
     <div id="balkblue"></div>
+    <div id="balkblok"></div>
     <div id="tekst">
         <h1>Je gegevens.</h1>
         <h2>wat moet er op de factuur staan?</h2>
-        
+    </div>
+    <div class="inluvmeuk">
+        <div id="gegevens">
+
+            Type bestelling: <input type="radio" id="typeb" name="particulier" value="particulier">
+            <label for="typeb">Particulier</label>
+            <input type="radio" id="typeb" name="particulier" value="particulier">
+            <label for="typeb">Zakelijk</label><br>
+            Aanhef: <input type="radio" id="aanhef" name="Dhr." value="Dhr.">
+            <label for="typeb">Dhr.</label>
+            <input type="radio" id="aanhef" name="Mevr." value="Mevr.">
+            <label for="typeb">Mevr.</label>
+            <form action="aamnelden" method="post">
+                Naam: <input type="text" name="vnaam" placeholder="Voornaam" />
+                <input type="text" name="anaam" placeholder="tussenv." />
+                <input type="text" name="anaam" placeholder="Achternaam" />
+        </div>
+        <div id="postcode">
+            Postcode:<input type="" name="postcode" placeholder="1234AB" />
+        </div>
+        <div id="huisnummer">
+            huisnummer:<input type="tel" name="huisnummer" placeholder="Nr." />
+            <input type="text" name="toevoeging" placeholder="Toev." />
+            <br>
+        </div>
+        <div id="land">
+            land
+        </div>
+        <div id="afleveradres">
+            afleveradres
+        </div>
+        <div id="e-mail">
+            E-mailadres:<input type="email" name="e_mail" />
+        </div>
+        <div id="phone number">
+            Telefoonnummer:<input type="tel" name="phonenumber" />
+        </div>
+        <div id="geboortendatum">
+            geboortendatum:<input type="date" name="geboortendatum" />
+        </div>
+        <div id="verzendwijze">
+            verzendwijze factuur:
+        </div>
     </div>
 </body>
 

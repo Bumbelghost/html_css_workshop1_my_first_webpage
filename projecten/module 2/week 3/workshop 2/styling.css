@@ -1,25 +1,37 @@
 * {
 
 }
+#inluvmeuk {
 
+}
 #logotext {
     color: white;
     font-size: 20px;
     position: absolute;
-    z-index: 2;
-    margin-left: 75px;
+    margin-left: 87px;
+    z-index: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+#balkblok {
+        position: relative;
+        background-color: white;
+        height: 12px;
+        width: 1920px;
+    }
+
 #logo {
     background-color: #f77d2c;
     position: absolute;
-    height: 50px;
-    width: 50px;
-    border: #f77d2c solid ;
+    height: 70px;
+    width: 70px;
+    border: #f77d2c solid;
     border-radius: 50%;
-    z-index: 1;
     margin-left: 70px;
+    overflow: hidden;
+    margin-top: -15px;
 
 }
+
 #balkblue {
     margin-left: -8px;
     margin-top: -10px;
@@ -27,10 +39,14 @@
     width: 1920px;
     background-color: #3d89db;
 }
+
 #tekst {
- color: #2ca9f7;
- font-size: ;
+    color: #2ca9f7;
+    margin-left: 100px;
+
+
 }
+
 h1 {
     color: rgb(30, 71, 204);
 }
